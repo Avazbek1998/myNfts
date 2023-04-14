@@ -1,0 +1,226 @@
+:root {
+    --gray: #BDCADB;
+    --white: #fff;
+    --linear-color: linear-gradient(256.8deg, #0698F9 13.5%, #F906F9 87.25%);
+    --title: #21204A;
+    --text: #64609F;
+    --Neutral-1: #11315B;
+    --Neutral-2: #476285;
+}
+
+footer {
+    background-color: var(--title);
+    padding-top: 64px;
+    padding-bottom: 96px;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: var(--gray);
+    margin-top: 20px;
+}
+
+.footer a {
+    color: var(--gray);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer a:is(:hover, :focus) {
+    color: #0698F9;
+    color: var(--white);
+}
+
+.foot-logo-wrap {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.foot-logo-wrap span {
+    color: #FAFCFF;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.footer input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #9D9BB9;
+}
+
+.footer ::placeholder {
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9D9BB9;
+}
+
+.subscribe-btn {
+    padding: 6px 21px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #282329;
+    background: #CDE2FE;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    transition: 0.5s ease-in-out;
+}
+
+.subscribe-btn:hover {
+    background-color: var(--title);
+    transition: 0.5s ease-in-out;
+    color: var(--white);
+}
+
+.subscribe-wrap {
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+    background: rgba(215, 214, 220, 0.2);
+    border: 1px solid rgba(215, 214, 220, 0.2);
+    border-radius: 12px;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.subscribe-left i {
+    font-size: 30px;
+    color: #9D9BB9;
+}
+
+.footer label {
+    color: var(--white);
+}
+
+.footer label:is(:hover, :focus) {
+    color: var(--Neutral-2);
+}
+
+.foot-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.foot-first-text {
+    margin-top: 28px;
+    margin-bottom: 20px;
+    max-width: 360px;
+    color: var(--gray);
+}
+
+@media screen and (max-width:1200px) {
+
+    /* footer resizing */
+    footer {
+        padding-top: calc(30px + (64 - 30) * ((100vw - 320px)/(1200 - 320)));
+        padding-bottom: calc(30px + (96 - 30) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .footer ul {
+        gap: calc(10px + (16 - 10) * ((100vw - 320px)/(1200 - 320)));
+        margin-top: calc(10px + (20 - 10) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .footer a {
+        font-size: calc(12px + (14 - 12) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .foot-logo-wrap {
+        gap: calc(10px + (16 - 10) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .foot-logo-wrap span {
+        font-size: calc(18px + (24 - 18) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .footer ::placeholder {
+        font-size: calc(12px + (16 - 12) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .subscribe-btn {
+        font-size: calc(12px + (16 - 12) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .subscribe-wrap {
+        margin-top: calc(10px + (20 - 10) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .subscribe-left i {
+        font-size: calc(24px + (30 - 24) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .foot-wrap {
+        gap: calc(10px + (30 - 10) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .foot-first-text {
+        margin-top: calc(20px + (28 - 20) * ((100vw - 320px)/(1200 - 320)));
+        margin-bottom: 20px;
+    }
+
+    .subscribe-right {
+        gap: calc(10px + (20 - 10) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    /* footer resizing */
+}
+
+@media only screen and (max-width:768px) {
+    .subscribe-left {
+        display: block;
+    }
+
+    .subscribe-wrap {
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .foot-wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .subscribe-left {
+        display: none;
+    }
+
+    .subscribe-wrap {
+        width: 60%;
+    }
+
+    .subscribe-right {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .foot-first-text {
+        max-width: 100%;
+    }
+
+    .foot-logo-wrap {
+        justify-content: center;
+    }
+
+    .foot-wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}

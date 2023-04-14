@@ -1,0 +1,130 @@
+:root {
+    --gray: #BDCADB;
+    --white: #fff;
+    --linear-color: linear-gradient(256.8deg, #0698F9 13.5%, #F906F9 87.25%);
+    --title: #21204A;
+    --text: #64609F;
+    --Neutral-1: #11315B;
+    --Neutral-2: #476285;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #21204A;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+}
+
+.nav-btn-for-mobile {
+    display: none;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.close-icon {
+    display: none;
+}
+
+.open-icon {
+    display: none;
+}
+
+.nav-link {
+    color: var(--gray);
+}
+
+.nav-link:focus {
+    color: var(--white);
+}
+
+.nav-btn {
+    font-weight: 500;
+    font-size: 16px;
+    border: 2px solid #BDCADB;
+    border-radius: 12px;
+    padding: 10px 24px;
+}
+
+.creatItem {}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+@media (max-width:1200px) {
+    .nav-list {
+        gap: calc(20px + (48 - 20) * ((100vw - 320px)/(1200 - 320)));
+    }
+}
+
+@media only screen and (max-width:576px) {
+    header .container {
+        padding: 10px 0;
+    }
+
+    .nav-btn-for-mobile {
+        display: block;
+    }
+
+    /* MENU-BURGER */
+
+
+    .nav-list {
+        transform: translateX(-1000px);
+        transition: 0.5s ease-in-out;
+    }
+
+    .open-menu {
+        transform: translateX(0px);
+        transition: 0.5s ease-in-out;
+    }
+
+    .close-icon {
+        display: block;
+        font-size: 30px;
+        color: var(--gray);
+        position: absolute;
+        right: 20px;
+        top: 10%;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .open-icon {
+        display: block;
+        font-size: 30px;
+        color: var(--gray);
+        z-index: 1;
+    }
+
+    /* MENU-BURGER */
+    .nav-btn-for-laptop {
+        display: none;
+    }
+
+    .nav-list {
+        width: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        background-color: var(--title);
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        padding-top: 200px;
+        z-index: 51;
+    }
+}

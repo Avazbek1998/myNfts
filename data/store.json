@@ -1,0 +1,151 @@
+{
+  "allNfts": [
+    {
+      "img": "https://nftimgs.netlify.app/Base-1.svg",
+      "title": "Collection name",
+      "subTitle": "NFT name Ex Shiba Astronaut",
+      "priceText": "Price",
+      "discount": "1.0 ETH",
+      "price": "$130,729.12",
+      "offer": "Best offer",
+      "discount2": "1.5 ETH",
+      "time": "4hrs left",
+      "id": 1
+    },
+    {
+      "img": "https://nftimgs.netlify.app/Base-2.svg",
+      "title": "Collection name",
+      "subTitle": "NFT name Ex Shiba Astronaut",
+      "priceText": "Price",
+      "discount": "1.0 ETH",
+      "price": "$130,729.12",
+      "offer": "Best offer",
+      "discount2": "1.5 ETH",
+      "time": "4hrs left",
+      "id": 2
+    },
+    {
+      "img": "https://nftimgs.netlify.app/Base.svg",
+      "title": "Collection name",
+      "subTitle": "NFT name Ex Shiba Astronaut",
+      "priceText": "Price",
+      "discount": "1.0 ETH",
+      "price": "$130,729.12",
+      "offer": "Best offer",
+      "discount2": "1.5 ETH",
+      "time": "4hrs left",
+      "id": 3
+    },
+    {
+      "img": "https://nftimgs.netlify.app/Image-1.svg",
+      "title": "Collection name",
+      "subTitle": "NFT name Ex Shiba Astronaut",
+      "priceText": "Price",
+      "discount": "1.0 ETH",
+      "price": "$130,729.12",
+      "offer": "Best offer",
+      "discount2": "1.5 ETH",
+      "time": "4hrs left",
+      "id": 4
+    },
+    {
+      "img": "https://nftimgs.netlify.app/Image-2.svg",
+      "title": "Collection name",
+      "subTitle": "NFT name Ex Shiba Astronaut",
+      "priceText": "Price",
+      "discount": "1.0 ETH",
+      "price": "$130,729.12",
+      "offer": "Best offer",
+      "discount2": "1.5 ETH",
+      "time": "4hrs left",
+      "id": 5
+    },
+    {
+      "img": "https://nftimgs.netlify.app/Image-3.svg",
+      "title": "Collection name",
+      "subTitle": "NFT name Ex Shiba Astronaut",
+      "priceText": "Price",
+      "discount": "1.0 ETH",
+      "price": "$130,729.12",
+      "offer": "Best offer",
+      "discount2": "1.5 ETH",
+      "time": "4hrs left",
+      "id": 6
+    },
+    {
+      "img": "https://nftimgs.netlify.app/Image-4.svg",
+      "title": "Collection name",
+      "subTitle": "NFT name Ex Shiba Astronaut",
+      "priceText": "Price",
+      "discount": "1.0 ETH",
+      "price": "$130,729.12",
+      "offer": "Best offer",
+      "discount2": "1.5 ETH",
+      "time": "4hrs left",
+      "id": 7
+    },
+    {
+      "img": "https://nftimgs.netlify.app/Imagefour.svg",
+      "title": "Collection name",
+      "subTitle": "NFT name Ex Shiba Astronaut",
+      "priceText": "Price",
+      "discount": "1.0 ETH",
+      "price": "$130,729.12",
+      "offer": "Best offer",
+      "discount2": "1.5 ETH",
+      "time": "4hrs left",
+      "id": 8
+    }
+  ],
+  "allNfts2": [
+    {
+      "img": "https://nftimgs.netlify.app/Imagethree.svg",
+      "title": "Collection name",
+      "subTitle": "NFT name Ex Shiba Astronaut",
+      "priceText": "Price",
+      "discount": "1.0 ETH",
+      "price": "$130,729.12",
+      "offer": "Best offer",
+      "discount2": "1.5 ETH",
+      "time": "4hrs left",
+      "id": 1
+    },
+    {
+      "img": "https://nftimgs.netlify.app/Image-2.svg",
+      "title": "Collection name",
+      "subTitle": "NFT name Ex Shiba Astronaut",
+      "priceText": "Price",
+      "discount": "1.0 ETH",
+      "price": "$130,729.12",
+      "offer": "Best offer",
+      "discount2": "1.5 ETH",
+      "time": "4hrs left",
+      "id": 2
+    },
+    {
+      "img": "https://nftimgs.netlify.app/Image-3.svg",
+      "title": "Collection name",
+      "subTitle": "NFT name Ex Shiba Astronaut",
+      "priceText": "Price",
+      "discount": "1.0 ETH",
+      "price": "$130,729.12",
+      "offer": "Best offer",
+      "discount2": "1.5 ETH",
+      "time": "4hrs left",
+      "id": 3
+    },
+    {
+      "img": "https://nftimgs.netlify.app/Base.svg",
+      "title": "Collection name",
+      "subTitle": "NFT name Ex Shiba Astronaut",
+      "priceText": "Price",
+      "discount": "1.0 ETH",
+      "price": "$130,729.12",
+      "offer": "Best offer",
+      "discount2": "1.5 ETH",
+      "time": "4hrs left",
+      "id": 4
+    }
+  ],
+  "newElemnts": []
+}

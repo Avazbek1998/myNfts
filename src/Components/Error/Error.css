@@ -1,0 +1,54 @@
+:root {
+    --gray: #BDCADB;
+    --white: #fff;
+    --linear-color: linear-gradient(256.8deg, #0698F9 13.5%, #F906F9 87.25%);
+    --title: #21204A;
+    --text: #64609F;
+    --Neutral-1: #11315B;
+    --Neutral-2: #476285;
+}
+
+.error-container {
+    width: min(100% - 10px, 1200px);
+    margin-inline: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+    text-align: center;
+}
+
+.error-title {
+    font-weight: 600;
+    font-size: 128px;
+    background: linear-gradient(181deg, #0698F9 13.5%, #F906F9 87.25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.error-subtitle {
+    font-weight: 600;
+    font-size: 32px;
+    color: #451254;
+}
+
+.error-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #6E84AB;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width:992px) {
+    .error-container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+
+    }
+}

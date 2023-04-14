@@ -1,0 +1,733 @@
+:root {
+    --gray: #BDCADB;
+    --white: #fff;
+    --linear-color: linear-gradient(256.8deg, #0698F9 13.5%, #F906F9 87.25%);
+    --title: #21204A;
+    --text: #64609F;
+    --Neutral-1: #11315B;
+    --Neutral-2: #476285;
+}
+
+body {
+    background-color: #F0F4FF;
+}
+
+main {
+    width: min(100% - 10px, 1200px);
+    margin-inline: auto;
+}
+
+.discover {
+    height: max-content;
+}
+
+.discover-wrap {
+    background-color: var(--title);
+    display: flex;
+    justify-content: space-between;
+    width: min(100% - 10px, 1200px);
+    margin-inline: auto;
+    height: 458px;
+}
+
+.discover-left {
+    padding-top: 74px;
+}
+
+.discover-right {
+    padding-top: 25px;
+}
+
+.discover-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #F0F6FF;
+
+}
+
+.discover {
+    background-color: var(--title);
+}
+
+.discover-right {
+    position: relative;
+}
+
+.discover-title {
+    max-width: 480px;
+}
+
+.discover-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.discover-btn span {
+    padding: 8px;
+    background-color: var(--white);
+    width: 40px;
+    height: 40px;
+}
+
+.discover-btn span i {
+    color: #11315B;
+    font-size: 24px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.discover-arrow {
+    border-radius: 10px;
+    position: relative;
+}
+
+.discover-text {
+    max-width: 470px;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--gray);
+    margin-top: 20px;
+    margin-bottom: 48px;
+}
+
+/* allNfts */
+.allNfts-cards {
+    margin-top: 72px;
+}
+
+.allNfts-cards-top-title {
+    margin-bottom: 22px;
+    margin-top: 105px;
+    background: linear-gradient(181deg, #0698F9 13.5%, #F906F9 87.25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.allNfts-cards-bottom {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.allNfts-cards-bottom img {
+    width: 100%;
+}
+
+/* allNfts */
+/* auctions */
+.auctions {
+    margin-top: 100px;
+}
+
+.auctions-cards-wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+}
+
+.auctions-cards figcaption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auctions-card-price {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--Neutral-1);
+    transition: 0.5s ease-in-out;
+}
+
+.auctions-card-text {
+    font-weight: 400;
+    font-size: 12px;
+    color: #9D9BB9;
+    transition: 0.5s ease-in-out;
+}
+
+/* auctions */
+.auctions-top-title {
+    background: linear-gradient(181deg, #0698F9 13.5%, #F906F9 87.25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.swiper {
+    padding: 60px 0 !important;
+}
+
+.allNfts-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.allNfts-card-head {
+    overflow: hidden;
+    border-radius: 16px;
+    max-width: 224px;
+    width: 100%;
+    height: 258px;
+}
+
+/* art */
+.art {
+    margin-top: 132px;
+    margin-bottom: 132px;
+}
+
+.art-cart-position-top {
+    justify-content: end;
+}
+
+.art-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+}
+
+.art-card {
+    padding: 16px;
+    background: rgba(249, 249, 249, 0.8);
+    box-shadow: 20px 20px 30px rgba(124, 65, 154, 0.1);
+    border-radius: 16px;
+    height: auto;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.art-card img {
+    width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.art-cart-position-top {
+    height: max-content;
+}
+
+.art-cart-position-bottom {
+    margin-top: 70px;
+    background: rgba(249, 249, 249, 0.8);
+}
+
+.art-card:hover .art-card-img {
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+    filter: grayscale(80);
+}
+
+.art-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.art-article-top p {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #64609F;
+}
+
+.art-article-bottom {
+    display: flex;
+    gap: 16px;
+}
+
+.art-btn2 {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--white);
+    padding: 12px 24px;
+    border-radius: 12px;
+    background: linear-gradient(181deg, #0698F9 13.5%, #F906F9 87.25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid #0698F9;
+    animation: vibrant linear 3s infinite;
+}
+
+@keyframes vibrant {
+    0% {
+        border: 2px solid #0698F9;
+    }
+
+    100% {
+        border: 2px solid #F906F9;
+    }
+}
+
+/* art end*/
+/* marketplace */
+.marketplace-wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.marketplace-card-left p {
+    margin-top: 24px;
+    margin-bottom: 28px;
+    max-width: 600px;
+}
+
+.marketplace-card-img-right {
+    margin-top: 25px;
+}
+
+.marketplace-card-right {
+    display: flex;
+    gap: 50px;
+}
+
+/* marketplace end*/
+/* explore */
+/* explore */
+.explore {
+    margin-top: 132px;
+    margin-bottom: 132px;
+    background: hsl(0 0% 0% / 0.5);
+    border-radius: 32px;
+
+}
+
+.explore:after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background: hsl(0 0% 0% / 0.5);
+}
+
+.explore-wrap {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: url("/src/Components/imgs/explore2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 52px 62px;
+    gap: 35px;
+    z-index: 1;
+    border-radius: 32px;
+    align-items: center;
+}
+
+.explore-left h1 {
+    color: var(--white);
+}
+
+.explore-left p {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--gray);
+}
+
+.explore-right {
+    height: 100%;
+}
+
+.explore-video {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* explore end*/
+/* create */
+.create {
+    margin-top: 132px;
+    margin-bottom: 132px;
+}
+
+.create-top {
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.create-bottom {
+    display: flex;
+    gap: 24px;
+}
+
+.create-card i {
+    color: var(--Neutral-1);
+    font-size: 32px;
+}
+
+.create-icon-wrap {
+    width: 64px;
+    height: 64px;
+    padding: 16px;
+    background-color: #FAFCFF;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create-card{
+    padding: 5px;
+}
+.create-card:hover {
+    /* box-shadow: 0 5px 10px rgba(154, 160, 185, .05), 0 15px 40px rgba(166, 173, 201, .2); */
+}
+
+.create-card:hover .create-icon-wrap i {
+    color: #0698F9
+}
+
+.create-card h2 {
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #11315B;
+}
+
+.create-p {
+    max-width: 350px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #476285;
+}
+
+/* create end*/
+@media only screen and (max-width:1200px) {
+    .discover-img {
+        width: 100%;
+    }
+
+    /* resizing  */
+
+    .discover-left {
+        padding-top: calc(20px + (74 - 20) * ((100vw - 320px) / (1200 - 320)));
+    }
+
+    .discover-right {
+        padding-top: calc(10px + (25 - 10) * ((100vw - 320px) / (1200 - 320)));
+    }
+
+    .discover-title {
+        font-size: calc(24px + (40 - 24) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .discover-btn {
+        gap: calc(14px + (16 - 14) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .discover-btn span {
+        padding: 8px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .discover-text {
+        margin-top: calc(10px + (20 - 10) * ((100vw - 320px)/(1200 - 320)));
+        margin-bottom: calc(20px + (48 - 20) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .allNfts-cards {
+        margin-top: calc(30px + (72 - 30) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .allNfts-cards-top-title {
+        margin-bottom: calc(10px + (22 - 10) * ((100vw - 320px)/(1200 - 320)));
+        margin-top: calc(30px + (105 - 30) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .auctions {
+        margin-top: calc(30px + (100 - 30) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .auctions-cards-wrap {
+        gap: calc(10px + (24 - 10) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .auctions-card-price {
+        font-size: calc(14px + (16 - 14) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .art {
+        margin-top: calc(30px + (132 - 30) * ((100vw - 320px)/(1200 - 320)));
+        margin-bottom: calc(30px + (132 - 30) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .art-wrap {
+        gap: calc(20px + (48 - 20) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .art-cart-position-bottom {
+        margin-top: calc(30px + (70 - 30) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .art-cards {
+        gap: calc(20px + (28 - 20) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .art-article-top p {
+        margin-top: calc(10px + (16 - 10) * ((100vw - 320px)/(1200 - 320)));
+        margin-bottom: calc(20px + (32 - 20) * ((100vw - 320px)/(1200 - 320)));
+        font-size: calc(14px + (16 - 14) * ((100vw - 320px)/(1200px - 320)));
+    }
+
+    .art-btn2 {
+        font-size: calc(14px + (18 - 14) * ((100vw - 320px)/(1200 - 320)));
+        padding: 12px 24px;
+    }
+
+    .marketplace-wrap {
+        gap: calc(20px + (32 - 20) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .marketplace-card-left p {
+        margin-top: calc(10px + (24 - 10) * ((100vw - 320px)/(1200 - 320)));
+        margin-bottom: calc(20px + (28 - 20) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .marketplace-card-img-right {
+        margin-top: calc(10px + (25 - 10) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .marketplace-card-right {
+        gap: calc(10px + (50 - 10) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .explore {
+        margin-top: calc(30px + (132 - 30) * ((100vw - 320px)/(1200 - 320)));
+        margin-bottom: calc(30px + (132 - 30) * ((100vw - 320px)/(1200 - 320)));
+
+    }
+
+    .explore-wrap {
+        padding: 52px 62px;
+        gap: calc(20px + (35 - 20) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .explore-left p {
+        margin-top: calc(10px + (32 - 10) * ((100vw - 320px)/(1200 - 320)));
+        margin-bottom: calc(20px + (32 - 20) * ((100vw - 320px)/(1200 - 320)));
+        font-size: calc(14px + (16 - 14) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .create {
+        margin-top: calc(30px + (132 - 30) * ((100vw - 320px)/(1200 - 320)));
+        margin-bottom: calc(30px + (132 - 30) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .create-top {
+        margin-bottom: calc(20px + (48 - 20) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .create-bottom {
+        gap: calc(20px + (24 - 20) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .create-icon-wrap {
+        width: 64px;
+        height: 64px;
+        padding: 16px;
+    }
+
+    .create-card h2 {
+        margin-top: calc(10px + (24 - 10) * ((100vw - 320px) / (1200 - 320)));
+        font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1200 - 320)));
+    }
+
+    /* resizing  */
+}
+
+@media only screen and (max-width:992px) {
+    .discover {
+        padding-bottom: 20px;
+    }
+
+    .discover-wrap {
+        height: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .discover-right {
+        display: none;
+    }
+
+    .discover-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .discover-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .discover-btn {
+        width: max-content;
+        margin: auto;
+    }
+
+    .allNfts-cards-top-title {
+        text-align: center;
+    }
+
+    .create-bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .auctions-top-title {
+        text-align: center;
+    }
+
+    .art-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .art-article {
+        text-align: center;
+    }
+
+    .art-article-bottom {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .marketplace-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .marketplace-card-img-right img {
+        width: 200px;
+        height: 200%;
+        object-fit: cover;
+    }
+
+    .marketplace-card-img-right {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allNfts-card {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .explore-wrap {
+        grid-template-columns: 1fr;
+        text-align: center;
+        place-content: center;
+    }
+
+    .explore-left {}
+}
+
+@media only screen and (max-width:576px) {
+    .explore-wrap {
+        padding: 30px;
+    }
+
+    .marketplace-card-right {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .marketplace-card-img-right {
+        flex-direction: row;
+    }
+
+    .create-card {
+        justify-content: center;
+        max-width: 80%;
+    }
+
+    .create-p {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .marketplace-card-left {
+        text-align: center;
+    }
+
+    .art-card h4,
+    h5 {
+        text-align: center;
+    }
+
+    .marketplace-card-img-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .marketplace-card-img-left img {
+        width: 100%;
+    }
+
+    .marketplace-card-img-right {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .marketplace-card-img-right img {
+        display: none;
+    }
+
+    .art-article-bottom {
+        flex-wrap: wrap;
+    }
+
+    .subscribe-right {
+        flex-wrap: wrap;
+    }
+
+    .footer input {
+        text-align: center;
+    }
+
+    .subscribe-left {
+        display: none;
+    }
+
+    .subscribe-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width:320px) {
+
+    .art-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

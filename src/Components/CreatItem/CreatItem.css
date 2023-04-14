@@ -1,0 +1,136 @@
+.creat-item-wrap {
+    margin-top: 132px;
+    margin-bottom: 132px;
+}
+
+.creat-item-bottom {
+    display: flex;
+    gap: 58px;
+    align-items: center;
+    justify-content: center;
+}
+
+.creat-item-top {
+    margin-top: 56px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.creat-form-top {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.creat-item-bottom-left {
+    max-width: 300px;
+    width: 300px;
+}
+
+.creat-form-bottom-box {
+    display: flex;
+    gap: 5;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+.creat-item-form {
+    max-width: 400px;
+}
+
+.creat-item-form input {
+    padding: 13px 15px;
+    border: 1px solid #BDCADB;
+    border-radius: 10px;
+    outline-color: #467dc6;
+}
+
+.creat-item-form textarea {
+    padding: 13px 15px;
+    border: 1px solid #BDCADB;
+    border-radius: 10px;
+    outline-color: #467dc6;
+    min-width: 300px;
+    min-height: 100px;
+    max-width: 400px;
+    max-height: 200px;
+}
+
+.creat-form-bottom-box input {
+    padding: 13px 15px;
+    border: 1px solid #BDCADB;
+    border-radius: 12px 0px 0px 12px;
+    background-color: transparent;
+}
+
+.creat-form-bottom-left input {
+    border-radius: 12px 0px 0px 12px;
+    background-color: transparent;
+}
+
+.creat-form-bottom-right input {
+    border-radius: 0px 12px 12px 0px;
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 1200px) {
+    .creat-item-wrap {
+        margin-top: calc(30px + (132 - 30) * ((100vw - 320px)/(1200 - 320)));
+        margin-bottom: calc(30px + (132 - 30) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .creat-item-bottom {
+        gap: calc(30px + (58 - 30) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .creat-item-top {
+        margin-top: calc(30px + (56 - 30) * ((100vw - 320px)/(1200 - 320)));
+        margin-bottom: calc(20px + (40 - 20) * ((100vw - 320px)/(1200 - 320)));
+    }
+
+    .creat-form-bottom-box {
+        margin-bottom: calc(20px + (40 - 20) * ((100vw - 320px)/(1200 - 320)));
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .creat-form-bottom-box {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .creat-item-bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .creat-form-bottom-box {
+        gap: 10px;
+        width: 100%;
+    }
+
+    .creat-form-bottom-right input {
+        border-radius: 12px;
+        width: 100%;
+    }
+
+    .creat-form-bottom-right {
+        width: 90%;
+        margin: auto;
+    }
+
+    .creat-form-bottom-left {
+        width: 90%;
+        margin: auto;
+    }
+
+    .creat-form-bottom-left input {
+        border-radius: 12px;
+        width: 100%;
+    }
+}
