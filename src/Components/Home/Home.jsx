@@ -22,8 +22,8 @@ import { FreeMode, Pagination } from "swiper";
 // Import Swiper styles
 import "swiper/css";
 function Home() {
-  const { data } = Fetch(" http://localhost:8000/allNfts");
-  const { newItem } = Fetch2("http://localhost:8000/newElemnts");
+  const { data } = Fetch("https://my-json-server.typicode.com/Avazbek1998/db.json/allNfts");
+  const { newItem } = Fetch2("https://my-json-server.typicode.com/Avazbek1998/db.json/allNfts2");
   return (
     <>
       <section className='discover'>

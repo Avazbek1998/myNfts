@@ -1,16 +1,15 @@
 /** @format */
-
+import "./Added.css";
 import React from "react";
-import { Link } from "react-router-dom";
-
+// import { Link } from "react-router-dom";
 import { useNavigate, useParams } from "react-router-dom";
 import Fetch2 from "../Fetch/Fetch2";
 function AddedList() {
   const { id } = useParams();
-  const { newItem } = Fetch2("  http://localhost:8000/newElemnts/" + id);
+  const { newItem } = Fetch2("https://my-json-server.typicode.com/Avazbek1998/db.json/allNfts" + id);
   const history = useNavigate();
   const funcDelete = () => {
-    fetch("  http://localhost:8000/newElemnts/" + newItem.id, {
+    fetch("https://my-json-server.typicode.com/Avazbek1998/db.json/newElemnts" + newItem.id, {
       method: "DELETE",
     }).then(() => {
       history("/");

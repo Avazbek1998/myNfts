@@ -1,3 +1,8 @@
-.added-list-wrap{
+.added-list-wrap {
     margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
 }
+
+.added-cards {}

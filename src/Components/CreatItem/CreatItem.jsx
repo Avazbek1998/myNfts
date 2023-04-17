@@ -13,7 +13,7 @@ function CreatItem() {
   const sendData = (e) => {
     e.preventDefault();
     const newData = { img, title, subTitle };
-    fetch("  http://localhost:8000/newElemnts", {
+    fetch("https://my-json-server.typicode.com/Avazbek1998/db.json/allNfts", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newData),

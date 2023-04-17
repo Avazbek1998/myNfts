@@ -4,7 +4,7 @@ import React from "react";
 import AllNfts from "../AllNfts/AllNfts";
 import Fetch from "../Fetch/Fetch";
 function AllNftsPage() {
-  const { data } = Fetch(" http://localhost:8000/allNfts");
+  const { data } = Fetch("https://my-json-server.typicode.com/Avazbek1998/db.json/allNfts");
   return (
     <>
       <main className='main all-nfts-page'>
